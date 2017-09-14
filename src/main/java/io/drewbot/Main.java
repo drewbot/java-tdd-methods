@@ -7,6 +7,9 @@ public class Main {
     static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
+
+        House myHouse = new House();
+
         System.out.println("My project runs");
         String firstInput = input("What is your first number?");
         String secondInput = input("What is your second number?");
